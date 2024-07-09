@@ -1,0 +1,73 @@
+@font-face {
+    font-family: NeueMachina-Light;
+    src: url('font/NeueMachina-Light.otf');
+}
+
+@font-face {
+    font-family: NeueMachina-Regular;
+    src: url('font/NeueMachina-Regular.otf');
+}
+
+@font-face {
+    font-family: NeueMachina-Ultrabold;
+    src: url('font/NeueMachina-Ultrabold.otf');
+}
+
+:root{
+    --regular-font: NeueMachina-Regular;
+    --ultrabold-font: NeueMachina-Ultrabold;
+    --light-font: NeueMachina-Light;
+
+    --text-color: #f0f8ff;
+    --second-text-color: #4E535E;
+    --title-color: #1A1616;
+    --main-color: #008cff;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #00ccff, #012196);
+    overflow: hidden;
+    display: flex;
+    z-index: 1;
+
+    header{
+        z-index: 1001;
+    }
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        background: linear-gradient(90deg, #0400ff,#00ffff);
+        border-radius: 50%;
+        left: -10%;
+        top: -20%;
+        filter: blur(90px);
+    }
+    
+    &::after{
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        background: linear-gradient(90deg, #ff00c8,#2600ff);
+        border-radius: 50%;
+        right: -10%;
+        bottom: -20%;
+        filter: blur(90px);
+    }
+}
+
+.background{
+    flex-direction: column;
+}
+
+@media screen and (max-width:1024px) {
+    section{
+        height: auto;
+    }
+}
