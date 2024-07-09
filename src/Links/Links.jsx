@@ -2,6 +2,7 @@ import './Links.css'
 import Img1 from './img1.jpg'
 import Img2 from './img2.jpg'
 import Img3 from './img3.jpg'
+import Img4 from './img4.jpg'
 
 function Links(){
     return(
@@ -32,7 +33,7 @@ function Links(){
                 </div>
             </div>
             <div className="box">
-                <img src={Img3} />
+                <img src={Img4} />
                 <div className="text">
                     <h1>Contact Me</h1>
                     <p>Feel free to contact me.</p>
