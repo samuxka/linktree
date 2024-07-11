@@ -37,7 +37,7 @@ function Links(){
                 <div className="text">
                     <h1>Contact Me</h1>
                     <p>Feel free to contact me.</p>
-                    <a href="#" className="btn">Contact Me</a>
+                    <a href="https://samukinha-contactme.netlify.app/" className="btn">Contact Me</a>
                 </div>
             </div>
         </div>
