@@ -27,7 +27,7 @@ function Links(){
             <div className="box">
                 <img src={Img3} />
                 <div className="text">
-                    <h1>Project</h1>
+                    <h1>Projects</h1>
                     <p>Check out my recent projects.</p>
                     <a href="#" className="btn">View Projects</a>
                 </div>
