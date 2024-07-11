@@ -29,7 +29,7 @@ function Links(){
                 <div className="text">
                     <h1>Project</h1>
                     <p>Check out my recent projects.</p>
-                    <a href="#" className="btn">View Project</a>
+                    <a href="#" className="btn">View Projects</a>
                 </div>
             </div>
             <div className="box">
